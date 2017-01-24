@@ -8,6 +8,11 @@ body{margin:0;}
 
 .nav-wrap{margin:50px;}
 
+.logo {
+	width: 120px;
+	height: 16px;
+}
+
 .ul-1, .ul-2{list-style-type:none; margin:0 auto;}
 
 .btns, .ul-1, .ul-2{text-transform:uppercase;}
@@ -37,6 +42,13 @@ footer{position:absolute; bottom:0; margin:0 auto; width:100%; font-size:.8em;}
 .ul-3{list-style-type: none;} 
 
 .ul-3 li{margin:0 20px;}
+
+.t-logo {
+	width: 14px;
+	overflow: hidden;
+}
+
+.t-logo img { height: 10px; }
 
 .flex{display:flex; justify-content:center; align-items:center;}
 
