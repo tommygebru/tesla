@@ -8,6 +8,8 @@ body{margin:0;}
 
 .nav-wrap{margin:50px;}
 
+.nav-wrap img{width:100px;}
+
 .ul-1, .ul-2{list-style-type:none; margin:0 auto;}
 
 .btns, .ul-1, .ul-2{text-transform:uppercase;}
@@ -33,6 +35,8 @@ h6:hover{text-decoration-color:white; text-decoration:underline;}
 .btns, .top-nav{font-weight:400; font-size: .75em;}
 
 footer{position:absolute; bottom:0; margin:0 auto; width:100%; font-size:.8em;}
+
+footer img{width:15px;}
 
 .ul-3{list-style-type: none;} 
 
