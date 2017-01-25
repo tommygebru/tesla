@@ -1,53 +1,139 @@
-*{/*background:rgba(0,0,0,.1);*/ font-family: 'Lato', sans-serif; font-weight:100; color:white; letter-spacing:1px;}
+* {
+    /*background:rgba(0,0,0,.1);*/
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    color: white;
+    letter-spacing: 1px;
+}
 
-body{margin:0;}
+body {
+    margin: 0;
+}
 
-.container{background:url(tesla_red1.jpg) center center no-repeat; height:100vh; width:100vw;}
+.container {
+    background: url(tesla_red1.jpg) center center no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
 
-.top-nav{height:60px; width:90%; margin:0 auto;}
+.top-nav {
+    height: 60px;
+    width: 90%;
+    margin: 0 auto;
+}
 
-.nav-wrap{margin:50px;}
+.nav-wrap {
+    margin: 50px;
+}
 
-.nav-wrap img{width:100px;}
+.nav-wrap img {
+    width: 100px;
+}
 
-.ul-1, .ul-2{list-style-type:none; margin:0 auto;}
+.ul-1,
+.ul-2 {
+    list-style-type: none;
+    margin: 0 auto;
+}
 
-.btns, .ul-1, .ul-2{text-transform:uppercase;}
+.btns,
+.ul-1,
+.ul-2 {
+    text-transform: uppercase;
+}
 
-.ul-1{font-size:15px;}
+.ul-1 {
+    font-size: 15px;
+}
 
-.ul-2{font-size:10px;}
+.ul-2 {
+    font-size: 10px;
+}
 
-li{margin:0 10px;}
+li {
+    margin: 0 10px;
+}
 
-.banner-text{margin-top:60px;}
+.banner-text {
+    margin-top: 60px;
+}
 
-h1{font-size:2.5em; margin:0; letter-spacing:3px;}
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    letter-spacing: 3px;
+}
 
-h6{font-size:1em; margin:30px 0;}
+h6 {
+    font-size: 1em;
+    margin: 30px 0;
+}
 
-h6:hover{text-decoration-color:white; text-decoration:underline;}
+h6:hover {
+    text-decoration-color: white;
+    text-decoration: underline;
+}
 
-.btns{background:#cc0000; width:170px; height:40px; margin:0 5px; border:solid 1px red; transition:300ms;}
+.btns {
+    background: #cc0000;
+    width: 170px;
+    height: 40px;
+    margin: 0 5px;
+    border: solid 1px red;
+    transition: 300ms;
+}
 
-.btns:hover{border:solid 1px white; transition:300ms;}
+.btns:hover {
+    border: solid 1px white;
+    transition: 300ms;
+}
 
-.btns, .top-nav{font-weight:400; font-size: .75em;}
+.btns,
+.top-nav {
+    font-weight: 400;
+    font-size: .75em;
+}
 
-footer{position:absolute; bottom:0; margin:0 auto; width:100%; font-size:.8em;}
+footer {
+    position: absolute;
+    bottom: 0;
+    margin: 0 auto;
+    width: 100%;
+    font-size: .8em;
+}
 
-footer img{width:15px;}
+footer img {
+    width: 15px;
+}
 
-.ul-3{list-style-type: none;} 
+.ul-3 {
+    list-style-type: none;
+}
 
-.ul-3 li{margin:0 20px;}
+.ul-3 li {
+    margin: 0 20px;
+}
 
-.flex{display:flex; justify-content:center; align-items:center;}
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-.row{flex-direction:row;}
+.row {
+    flex-direction: row;
+}
 
-.column{flex-direction:column;}
+.column {
+    flex-direction: column;
+}
 
-.wrap{flex-wrap: wrap;}
+.wrap {
+    flex-wrap: wrap;
+}
 
-li, .btns, h6{cursor:pointer;}
+li,
+.btns,
+h6 {
+    cursor: pointer;
+}
